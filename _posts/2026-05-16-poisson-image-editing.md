@@ -16,7 +16,7 @@ Poisson Image Editing is a gradient-domain technique that seamlessly blends a so
 
 Given a source image $g$ and a target image $f^*$ defined on a domain $S \supset \Omega$, the goal is to construct a new image $f$ inside the region $\Omega$ such that:
 
-- **Boundary condition**: $f|_{\partial\Omega} = f^*|_{\partial\Omega}$ — the pixel values at the boundary of $\Omega$ match the target image.
+- **Boundary condition**: $f\vert_{\partial\Omega} = f^*\vert_{\partial\Omega}$ — the pixel values at the boundary of $\Omega$ match the target image.
 - **Gradient preservation**: $\nabla f \approx \nabla g$ — the internal gradient structure closely resembles that of the source.
 
 This is formulated as a Poisson equation:
